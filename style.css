@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    height: 13%;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border: gray solid 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    
+}
+
+.pinterest-icon {
+    width: 30px;
+    height: 30px;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 1px;
+}
+
+nav a {
+    text-decoration: none;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.8em;
+    text-align: right;
+    
+}
+
+.buscador {
+    width: 60%;
+    height: auto;
+    border: whitesmoke solid 1px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display:flex;
+    align-items: center;
+}
+
+
+input {
+    border: none;
+    background-color: whitesmoke;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+}
+
+.buscador span {
+    vertical-align: middle;
+}
+
+main { 
+    height: 100%;
+    width: 100%;
+    border-top: whitesmoke solid 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+
+}
+
+.dashboard {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.contenedor-img {
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.img-dash {
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    border-style: groove; 
+}
+
+.contenedor-img:hover .btn-save{
+    display: block;
+}
+
+.btn-save {
+    width: 30%;
+    padding: 0.7rem;
+    position: absolute;
+    top: 1rem; right:3.5rem;
+    background-color: rgb(202, 53, 53);
+    color: white;
+    border-style: groove;
+    border-radius: 4rem;
+    font-size: 1.2rem;
+    display: none;
+}
+
+.btn-autor {
+    width: 35%;
+    padding:0.6rem;
+    background-color: whitesmoke;
+    border:none;
+    border-radius: 4rem;
+    position: absolute;
+    bottom: 1rem; left: 1rem;
+    display: none;
+}
+
+.contenedor-img .list-icon{
+    width: 35%;
+    position:absolute;
+    bottom: 1rem; right: 0;
+    color:whitesmoke;
+    border-radius: 4rem;
+    display: none;
+
+}
+
+.contenedor-img:hover .btn-autor{
+    display: block;
+}
+
+.contenedor-img:hover .list-icon{
+    display: block;
+}
+
+
+
+
