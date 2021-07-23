@@ -108,7 +108,7 @@ main {
     width: 90%;
     height: 100%;
     border-radius: 20px;
-    border-style: groove; 
+    border-style:hidden; 
 }
 
 .contenedor-img:hover .btn-save{
@@ -158,5 +158,51 @@ main {
 }
 
 
+@media screen and (max-width:1024px) {
+    .dashboard {
+        background-color: pink;
+        display: flex;
+    } 
+    
+    .contenedor-img {
+        width: 33%;
+    }
+    
+    }
 
+
+@media screen and (max-width:768px) {
+.dashboard {
+    background-color: blue;
+    display: flex;
+
+} 
+
+.buscador {
+    width: 50%;
+
+} 
+
+.contenedor-img {
+    width: 33%;
+}
+
+}
+
+
+@media screen and (max-width:425px) {
+    .dashboard {
+        background-color: green;
+        display: flex;
+    } 
+    
+    .contenedor-img {
+        width: 50%;
+    }
+
+    .buscador {
+        display: none;
+    }
+    
+    }
 
